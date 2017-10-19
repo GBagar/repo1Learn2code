@@ -1,0 +1,59 @@
+html,
+body {
+	height: 100%;
+}
+* {
+	border: 1px solid red;	
+}
+
+body {
+	background-color: grey;
+	padding: 50px;
+}
+
+div {
+	border: 1px solid black;
+}
+
+span {
+	border: 1px solid blue;
+}
+
+.list {
+	border: 1px solid green;
+	background-color: blue;
+}
+
+.list-specialny li {
+	background-color: white;
+}
+
+.list-specialny li {
+	display: inline-block;
+}
+
+p {
+	font size: 30px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.orange {
+	color: aquamarine;
+}
+
+#intro {
+	color: yellow;
+}
+
+a[title]:focus {
+	color: pink;
+	font-size: 30px;
+}
+
+div > strong {
+	border: 1px solid orange;
+}
+
