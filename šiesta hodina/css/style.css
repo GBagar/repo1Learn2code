@@ -1,0 +1,103 @@
+html, 
+body { 
+	height: 100%;
+	background-color: black; 
+	work-wrap: break-word;
+	word-break: break-word;
+	color: solid white;
+}
+
+a {
+	user-select: none;
+	text-decoration: none;
+}
+
+*,
+*:before
+*:after { 
+	box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+	outline:none;
+	border: none;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.box {
+	margin: 100px 250px 200px 70px;
+	border: 1px solid white;
+}
+
+.heading {
+	color: white;
+	text-align: center;
+	border: 1px solid white;
+	padding: 10px 0;
+}
+
+.acko {
+	display: block;
+	color: white;
+	font: 20px arial;
+	padding: 10px;
+}
+
+.acko:hover {
+	text-decoration: underline;
+	background-color: white;
+	color: black;
+}
+
+.list-red {
+	background-color: red;
+	padding: 10px;
+}
+
+.list-blue {
+	background-color: blue;
+	padding: 20px;
+}
+
+.list-green {
+	background-color: green;
+	padding: 30px;
+}
+
+.text {
+	color: black;
+	background-color: white;
+	padding: 5px;
+}
+
+.list-float-li {
+	float: left;
+	width: calc(100% / 3);
+}
+
+.list-flex {
+	display: flex;
+}
+
+.list-flex-li {
+	flex: 1;
+}
+
+.list-center {
+	text-align: center;
+	align-items: center;
+}
+
+.list-right {
+	text-align: right;
+	align-items: flex-end;
+}
+
+
+
+
+
