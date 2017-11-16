@@ -1,0 +1,80 @@
+.container {
+	margin: 10px auto;
+	width: 960px;
+}
+
+.box {
+	position: relative;
+	
+}
+
+.grey {
+	z-index: 1;
+	background-color:blue;
+	width: 150px;
+	height: 150px;
+	top: 0px;
+	bottom: 0px;
+}
+
+.green	{
+	z-index: 2;
+	background-color: green;
+	width: 150px;
+	height: 150px;
+	top: -100px;
+	left: 50px;
+	bottom: 0px;
+}
+
+.aquamarine {
+	z-index: 3;
+	background-color:  aquamarine;
+	width: 150px;
+	height: 150px;
+	top: -200px;
+	left: 100px;
+	bottom: 0px;
+}
+
+.yellow {
+	z-index: 4;
+	background-color: gold;
+	width: 150px;
+	height: 150px;
+	top: -300px;
+	left: 150px;
+	bottom: 0px;
+}
+
+.box:hover {
+	z-index: 10;
+}
+
+.link,
+.title-main {
+	color: black;
+	background-color: yellow;
+	border:  1px solid black;
+	font-size: 50px;
+	padding-left: 35px;
+}
+
+.link {
+	margin-left: 40px;
+	padding-left: 0;
+}
+
+.icon-star-full:after,
+.title-main:after {
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	transform: translateY(-50%);
+	font-size: 30px;
+	z-index: 5;
+}
+
+.icon-star-full:after {
+	left: -40px;
+}

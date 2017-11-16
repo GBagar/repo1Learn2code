@@ -1,0 +1,76 @@
+html,
+body {
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  user-select: none;
+  text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+*:focus,
+*:active {
+  outline:none;
+  border: none;
+  text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+@font-face {
+  font-family: 'icon';
+  src:  url('../fonts/icon.eot?y07rzo');
+  src:  url('../fonts/icon.eot?y07rzo#iefix') format('embedded-opentype'),
+    url('../fonts/icon.ttf?y07rzo') format('truetype'),
+    url('../fonts/icon.woff?y07rzo') format('woff'),
+    url('../fonts/icon.svg?y07rzo#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star-full:after {
+  content: "\e9d9";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
